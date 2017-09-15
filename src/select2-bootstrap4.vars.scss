@@ -2,6 +2,29 @@
 // Import this BEFORE https://github.com/select2/select2-bootstrap-theme SASS files or SASS compilation will fail
 // Since there is no official Bootstrap 4 theme for Select 2 this is a good fallback.
 
+// Here are a list of variables that complained when loading it with bootstrap 4 beta
+
+$btn-secondary-color: $btn-secondary; //rgba(theme-color("secondary"), .25);
+$btn-secondary-bg: rgba(theme-color("secondary"), .25);
+$btn-secondary-border: $btn-outline-secondary; //rgba(theme-color("secondary"), .25);
+$input-padding-x: $input-btn-padding-x;
+$input-padding-x-sm: $input-btn-padding-x-sm;
+$input-padding-x-lg: $input-btn-padding-x-lg;
+$input-padding-y: $input-btn-padding-y;
+$input-padding-y-sm: $input-btn-padding-y-sm;
+$input-padding-y-lg: $input-btn-padding-y-lg;
+$input-line-height: $input-btn-line-height;
+$cursor-disabled: cursor;
+$input-bg-disabled: $input-disabled-bg;
+$input-color-placeholder: $input-placeholder-color;
+$input-border-focus: $input-focus-border-color;
+$state-warning-text: $yellow;
+$state-danger-text: $red;
+$state-success-text: $green;
+
+// end list
+
+
 $screen-sm-min: 576px !default;
 $btn-default-color: $btn-secondary-color !default;
 
